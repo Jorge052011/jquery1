@@ -1,1 +1,1 @@
-# jquery1
+# jquery-ejemplo
