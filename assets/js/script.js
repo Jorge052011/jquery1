@@ -76,5 +76,24 @@ for (let index = 0; index < 10; index++) {
 const div_test = document.getElementById("div_test")
 div_test.innerHTML = "<p> hola desde js</p>"
 
+const div =  document.getElementById("div")
+const btn = document.getElementById("btn")
+
+btn.addEventListener('click' , () => {
+    div.style.backgroundColor = 'red'   
+})
 
 
+var numero11 = 5
+var numero22 = "5"
+
+alert(numero11 == numero22)
+alert(numero11 === numero22)
+
+var minombre = prompt("escribe tu nombre")
+var miedad = prompt("escribe tu edad")
+var mideporte = prompt("escribe tu deporte")
+
+
+
+alert("mi nombre es :"+ minombre + miedad + mideporte)
